@@ -30,7 +30,6 @@ app.use((req, res, next) => {
   res.sendFile(path.join(__dirname, "..", "build", "index.html"));
 });
 
-// start express server on port 5000
 // start server
 const port = 5000;
 app.listen(port, myIP, (err) => {
