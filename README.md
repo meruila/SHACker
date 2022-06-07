@@ -2,7 +2,7 @@
 Deployment build
 
 1. In API, `npm i`
-2. In frontend, `npm i`
+2. In frontend, `npm i`  
     a. If it does not work, `npm i --force`
 4. In frontend/server, `npm i`
 5. To run, go to API, `npm start`
