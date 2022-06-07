@@ -83,7 +83,7 @@ export default function SignConfirmationModal({ open, setOpen, stRecord }) {
 
   useEffect(() => {
     setWarningLoading(false);
-    fetch(process.env.REACT_APP_API_PATH +"checkForWarnings", {
+    fetch(process.env.REACT_APP_API_PATH +"/checkForWarnings", {
       method: "POST",
       credentials: "include",
       headers: {
