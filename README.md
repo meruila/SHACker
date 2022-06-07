@@ -7,3 +7,4 @@ Deployment build
 4. To run, go to API, `npm start`
 5. Then go to frontend, `npm start`
 6. New tab in web browser, <IP_ADDRESS>:5000
+7. Check with other devices!
