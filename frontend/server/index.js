@@ -37,6 +37,6 @@ app.listen(port, myIP, (err) => {
   if (err) { console.log(err); }
   else {
     console.log("HOST IP: "+myIP);
-    console.log("API listening at port "+port); 
+    console.log("Listening at port "+port); 
   }
 });
