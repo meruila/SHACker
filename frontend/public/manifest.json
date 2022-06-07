@@ -1,0 +1,15 @@
+{
+  "short_name": "SHACker",
+  "name": "SHACker: GWA Verifier (D-4L)",
+  "icons": [
+    {
+      "src": "SHACKER-icon.ico",
+      "sizes": "256x45",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

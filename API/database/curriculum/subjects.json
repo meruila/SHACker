@@ -1,0 +1,1916 @@
+[
+  {
+    "_id": "626d42befee24c0a7a8e930d",
+    "code": "ARTS 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e930e",
+    "code": "COMM 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e930f",
+    "code": "ETHICS 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9310",
+    "code": "KAS 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9311",
+    "code": "HIST 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9312",
+    "code": "STS 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9313",
+    "code": "PI 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9314",
+    "code": "HUM 3",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9315",
+    "code": "KAS 4",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9316",
+    "code": "MATH 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9317",
+    "code": "PHILARTS 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9318",
+    "code": "PHLO 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e9319",
+    "code": "PS 21",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e931a",
+    "code": "SAS 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e931b",
+    "code": "SCIENCE 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e931c",
+    "code": "SCIENCE 11",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e931d",
+    "code": "SOSC 3",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d42befee24c0a7a8e931e",
+    "code": "WIKA 1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e73",
+    "code": "COMA 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e74",
+    "code": "HUM 100",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e75",
+    "code": "SPCM 102",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e76",
+    "code": "HK 11",
+    "units": 0,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e77",
+    "code": "COMA 102",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e78",
+    "code": "ENG 100",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e79",
+    "code": "SPCM 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e7a",
+    "code": "HK 12",
+    "units": 0,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e7b",
+    "code": "HK 13",
+    "units": 0,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e7c",
+    "code": "ENG 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e7d",
+    "code": "ENG 104",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e7e",
+    "code": "HUM 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e7f",
+    "code": "THEA 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e80",
+    "code": "THEA 102",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e81",
+    "code": "NSTP 1",
+    "units": 0,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e82",
+    "code": "COMA 103",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e83",
+    "code": "COMA 192",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e84",
+    "code": "SPCM 104",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "626d44d7eb3a38230c7a3e85",
+    "code": "NSTP 2",
+    "units": 0,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac940459c",
+    "code": "COMA 190",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac940459d",
+    "code": "COMA 150",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac940459e",
+    "code": "COMA 200A",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac940459f",
+    "code": "COMA 193",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac94045a0",
+    "code": "COMA 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac94045a1",
+    "code": "COMA 105",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac94045a2",
+    "code": "COMA 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac94045a3",
+    "code": "HUM 102",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac94045a4",
+    "code": "THEA 103",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac94045a5",
+    "code": "HUM 104",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728606f5ec17dac94045a6",
+    "code": "HUM 170",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe971a",
+    "code": "PHLO 11",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe971b",
+    "code": "PHLO 12",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe971c",
+    "code": "PHLO 150",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe971d",
+    "code": "PHLO 171",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe971e",
+    "code": "SPEC",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe971f",
+    "code": "ECON 11",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9720",
+    "code": "POSC 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9721",
+    "code": "PHLO 110",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9722",
+    "code": "PHLO 112",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9723",
+    "code": "PHLO 173",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9724",
+    "code": "PHLO 174",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9725",
+    "code": "PHLO 181",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9726",
+    "code": "PHLO 195",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9727",
+    "code": "PHLO 197",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9728",
+    "code": "PHLO 113",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe9729",
+    "code": "PHLO 182",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe972a",
+    "code": "PHLO 176",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe972b",
+    "code": "PHLO 178",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe972c",
+    "code": "PHLO 190",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe972d",
+    "code": "PHLO 160",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe972e",
+    "code": "PHLO 184",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728748ad94f0ad06fe972f",
+    "code": "PHLO 185",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd09",
+    "code": "SOC 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd0a",
+    "code": "ANTH 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd0b",
+    "code": "PSY 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd0c",
+    "code": "SOC 100",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd0d",
+    "code": "SOC 110",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd0e",
+    "code": "SOC 116",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd0f",
+    "code": "STAT 166",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd10",
+    "code": "SOC 130",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd11",
+    "code": "SOC 135",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd12",
+    "code": "AERS 160",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd13",
+    "code": "SOC 140",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd14",
+    "code": "SOC 107",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd15",
+    "code": "SOC 151",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd16",
+    "code": "SOC 195",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd17",
+    "code": "SOC 195.1",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd18",
+    "code": "SOC 152",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd19",
+    "code": "SOC 166",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd1a",
+    "code": "SOC 192",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd1b",
+    "code": "SOC 198",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd1c",
+    "code": "SOC 114",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd1d",
+    "code": "SOC 120",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd1e",
+    "code": "SOC 180",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd1f",
+    "code": "SOC 191",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd20",
+    "code": "SOC 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd21",
+    "code": "SOC 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd22",
+    "code": "SOC 112",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd23",
+    "code": "SOC 160",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd24",
+    "code": "SOC 165",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd25",
+    "code": "SOC 170",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627289becf55453d96c4bd26",
+    "code": "SOC 175",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728cc3591bd41f02539493",
+    "code": "CHEM 18",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728cc3591bd41f02539494",
+    "code": "CHEM 18.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728cc3591bd41f02539495",
+    "code": "MCB 11",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728cc3591bd41f02539496",
+    "code": "MATH 27",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1758",
+    "code": "CHEM 19",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1759",
+    "code": "MATH 28",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d175a",
+    "code": "BIO 30",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d175b",
+    "code": "AGRI 31",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d175c",
+    "code": "CHEM 32",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d175d",
+    "code": "CHEM 32.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d175e",
+    "code": "PHYS 71",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d175f",
+    "code": "PHYS 71.1",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1760",
+    "code": "BOT 20",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1761",
+    "code": "CMSC 12",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1762",
+    "code": "AMAT 152",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1763",
+    "code": "CHEM 43",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1764",
+    "code": "CHEM 43.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1765",
+    "code": "PHYS 72",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1766",
+    "code": "PHYS 72.1",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1767",
+    "code": "AGRI 21",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1768",
+    "code": "AGRI 32",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1769",
+    "code": "CHEM 44",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d176a",
+    "code": "CHEM 44.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d176b",
+    "code": "STAT 162",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d176c",
+    "code": "AGRI 22",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d176d",
+    "code": "AAE 111",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d176e",
+    "code": "AAE 120",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d176f",
+    "code": "AGRI 61",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1770",
+    "code": "CHEM 111",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1771",
+    "code": "CHEM 131",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1772",
+    "code": "CHEM 140",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1773",
+    "code": "CHEM 161A",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1774",
+    "code": "AGRI 51",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1775",
+    "code": "AGRI 41",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1776",
+    "code": "CHEM 111.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1777",
+    "code": "CHEM 112",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1778",
+    "code": "CHEM 137",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1779",
+    "code": "CHEM 161B",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d177a",
+    "code": "CHEM 192",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d177b",
+    "code": "AGRI 42",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d177c",
+    "code": "CHEM 112.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d177d",
+    "code": "CHEM 115",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d177e",
+    "code": "CHEM 137.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d177f",
+    "code": "CHEM 161.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1780",
+    "code": "CHEM 198",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1781",
+    "code": "CHEM 133",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1782",
+    "code": "CHEM 120",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1783",
+    "code": "CHEM 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1784",
+    "code": "AGRI 171",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1785",
+    "code": "ACHM 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1786",
+    "code": "CHEM 180",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1787",
+    "code": "CHEM 185",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728d04ecce07f44e4d1788",
+    "code": "AGRI 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62728df25f73ec537aa62c20",
+    "code": "AMAT 19",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728df25f73ec537aa62c21",
+    "code": "MATH 36",
+    "units": 5,
+    "__v": 0
+  },
+  {
+    "_id": "62728df25f73ec537aa62c22",
+    "code": "BIO 11.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728df25f73ec537aa62c23",
+    "code": "MATH 37",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728df25f73ec537aa62c24",
+    "code": "STAT 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e10280e1499e84e2230",
+    "code": "AMAT 110",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e10280e1499e84e2231",
+    "code": "MATH 38",
+    "units": 5,
+    "__v": 0
+  },
+  {
+    "_id": "62728e10280e1499e84e2232",
+    "code": "MATH 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e10280e1499e84e2233",
+    "code": "PHYS 51",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728e10280e1499e84e2234",
+    "code": "PHYS 51.1",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62728e10280e1499e84e2235",
+    "code": "AMAT 105",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e10280e1499e84e2236",
+    "code": "AMAT 112",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b992531a",
+    "code": "AMAT 170",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b992531b",
+    "code": "MATH 151",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b992531c",
+    "code": "MATH 174",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b992531d",
+    "code": "MATH 181",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b992531e",
+    "code": "MATH 155",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b992531f",
+    "code": "MATH 175",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b9925320",
+    "code": "MATH 195",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b9925321",
+    "code": "AMAT 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b9925322",
+    "code": "AMAT 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62728e1f77ef69a8b9925323",
+    "code": "AMAT 190",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728e37e1fc2bcbc0305011",
+    "code": "AMAT 198",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f198c3653b70791d9c9",
+    "code": "PHYS 101",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728f198c3653b70791d9ca",
+    "code": "PHYS 102",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728f198c3653b70791d9cb",
+    "code": "PHYS 111",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e70",
+    "code": "APHY 10.1",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e71",
+    "code": "APHY 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e72",
+    "code": "PHYS 103",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e73",
+    "code": "PHYS 112",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e74",
+    "code": "PHYS 104",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e75",
+    "code": "PHYS 113",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e76",
+    "code": "PHYS 121",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e77",
+    "code": "APHY 102",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e78",
+    "code": "PHYS 115",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e79",
+    "code": "PHYS 122",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e7a",
+    "code": "PHYS 132",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e7b",
+    "code": "PHYS 192.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e7c",
+    "code": "PHYS 141",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e7d",
+    "code": "PHYS 151",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e7e",
+    "code": "PHYS 165",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e7f",
+    "code": "PHYS 195",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e80",
+    "code": "APHY 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e81",
+    "code": "PHYS 142",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e82",
+    "code": "APHY 191",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62728f25faca18b473a45e83",
+    "code": "APHY 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62729007ab87167c1fc0cb81",
+    "code": "MATH 25",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729007ab87167c1fc0cb82",
+    "code": "CHEM 40",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "62729007ab87167c1fc0cb83",
+    "code": "CHEM 40.1",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62729007ab87167c1fc0cb84",
+    "code": "BIO 14",
+    "units": 5,
+    "__v": 0
+  },
+  {
+    "_id": "62729007ab87167c1fc0cb85",
+    "code": "BOT 14",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729007ab87167c1fc0cb86",
+    "code": "ZOO 14",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729007ab87167c1fc0cb87",
+    "code": "CHEM 160",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729007ab87167c1fc0cb88",
+    "code": "BIO 150",
+    "units": 4,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9cd",
+    "code": "BIO 101",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9ce",
+    "code": "CHEM 160.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9cf",
+    "code": "BIO 140",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9d0",
+    "code": "ABME 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9d1",
+    "code": "STAT 164",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9d2",
+    "code": "BIO 120",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9d3",
+    "code": "BIO 142",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9d4",
+    "code": "BIO 195",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9d5",
+    "code": "BIO 127",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9d6",
+    "code": "BIO 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "627290194e19b2ffd466b9d7",
+    "code": "BIO 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "627291d58e8742dc2f3176fd",
+    "code": "CHEM 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "627291d58e8742dc2f3176fe",
+    "code": "CHEM 120.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "627291d58e8742dc2f3176ff",
+    "code": "CHEM 171",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd81",
+    "code": "CMSC 56",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd82",
+    "code": "CMSC 21",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd83",
+    "code": "CMSC 57",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd84",
+    "code": "CMSC 22",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd85",
+    "code": "CMSC 123",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd86",
+    "code": "CMSC 130",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd87",
+    "code": "CMSC 150",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd88",
+    "code": "CMSC 23",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd89",
+    "code": "CMSC 100",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd8a",
+    "code": "CMSC 127",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292bbe42248877729dd8b",
+    "code": "CMSC 131",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703abd",
+    "code": "CMSC 124",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703abe",
+    "code": "CMSC 125",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703abf",
+    "code": "CMSC 132",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac0",
+    "code": "CMSC 141",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac1",
+    "code": "CMSC 170",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac2",
+    "code": "CMSC 128",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac3",
+    "code": "CMSC 137",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac4",
+    "code": "CMSC 142",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac5",
+    "code": "CMSC 173",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac6",
+    "code": "CMSC 180",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac7",
+    "code": "CMSC 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac8",
+    "code": "CMSC 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703ac9",
+    "code": "CMSC 190",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627292c8486fcb85aa703aca",
+    "code": "ENG 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627293b65a538e6c6223a967",
+    "code": "MATH 20",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627293e1fc9afe8f46ba59aa",
+    "code": "MATH 103",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627293e1fc9afe8f46ba59ab",
+    "code": "MATH 138",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627293e1fc9afe8f46ba59ac",
+    "code": "MATH 141",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627293efd2258011801da807",
+    "code": "MATH 111",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627293fb25ee6c7d1b0249dd",
+    "code": "MATH 120",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627293fb25ee6c7d1b0249de",
+    "code": "MATH 133",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627294067d4a78a8ddf24299",
+    "code": "MATH 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "627294067d4a78a8ddf2429a",
+    "code": "MATH 135",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "627294067d4a78a8ddf2429b",
+    "code": "MATH 165",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729422a4b8a01428939150",
+    "code": "MATH 192",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729422a4b8a01428939151",
+    "code": "MATH 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62729422a4b8a01428939152",
+    "code": "MATH 190",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729638aa9f273873972315",
+    "code": "STAT 135",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575010",
+    "code": "STAT 182",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575011",
+    "code": "STAT 144",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575012",
+    "code": "STAT 168",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575013",
+    "code": "MATH 182",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575014",
+    "code": "STAT 145",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575015",
+    "code": "STAT 163",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575016",
+    "code": "STAT 146",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575017",
+    "code": "STAT 173",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575018",
+    "code": "STAT 175",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575019",
+    "code": "STAT 181",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b057501a",
+    "code": "STAT 147",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b057501b",
+    "code": "STAT 151",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b057501c",
+    "code": "STAT 156",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b057501d",
+    "code": "STAT 174",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b057501e",
+    "code": "STAT 192.1",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b057501f",
+    "code": "STAT 198",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575020",
+    "code": "STAT 148",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575021",
+    "code": "STAT 165",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575022",
+    "code": "STAT 190",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575023",
+    "code": "STAT 191",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575024",
+    "code": "STAT 157",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575025",
+    "code": "STAT 167",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575026",
+    "code": "STAT 183",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62729641ce27ee52b0575027",
+    "code": "STAT 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "6281243c9aa35146663c8010",
+    "code": "MST 101A",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "6281243c9aa35146663c8011",
+    "code": "PHYS 50",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6281243c9aa35146663c8012",
+    "code": "MST 101B",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "6281243c9aa35146663c8013",
+    "code": "MST 101C",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "6281243c9aa35146663c8014",
+    "code": "EDUC 102",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6281243c9aa35146663c8015",
+    "code": "EDUC 111",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6281245283f2534fc23c64cc",
+    "code": "SPCM 156",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6281245283f2534fc23c64cd",
+    "code": "MST 101D",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "6281245283f2534fc23c64ce",
+    "code": "DEVC 40",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6281245283f2534fc23c64cf",
+    "code": "MST 40",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6281245283f2534fc23c64d0",
+    "code": "EDUC 122",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df41",
+    "code": "MST 123",
+    "units": 5,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df42",
+    "code": "EDUC 144",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df43",
+    "code": "MST 195",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df44",
+    "code": "MST 199",
+    "units": 1,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df45",
+    "code": "MST 200A",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df46",
+    "code": "MATH 18",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df47",
+    "code": "MST 190",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df48",
+    "code": "MST 191",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df49",
+    "code": "MST 200B",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62812469c68081ea6a30df4a",
+    "code": "HFDS 12",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "628124c3daea5e7e71bb522b",
+    "code": "PHYS 131",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "628126ce019bd45416993ca3",
+    "code": "APHY 198",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "628132c30a2229912b1b909f",
+    "code": "BIO 198",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6283a29fa802c7a41e6e2e8a",
+    "code": "BIO 160.1",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6283a395a74021d2086763ab",
+    "code": "CHEM 102",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6283e8ed0175f7122e43e495",
+    "code": "CMSC 198",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6283e8ed0175f7122e43e496",
+    "code": "MATH 198",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6283ef93813396c6b07b3260",
+    "code": "PHYS 193.1",
+    "units": 2,
+    "__v": 0
+  },
+  {
+    "_id": "6285168b678b450f4457ab8b",
+    "code": "PHLO 111",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6285168b678b450f4457ab8c",
+    "code": "PHLO 120",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "6285168b678b450f4457ab8d",
+    "code": "PHLO 200",
+    "units": 6,
+    "__v": 0
+  },
+  {
+    "_id": "62853b58f921a9134490fe4c",
+    "code": "HIST 10",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62854833e949d344507b2e13",
+    "code": "CHEM 181B",
+    "units": 3,
+    "__v": 0
+  },
+  {
+    "_id": "62854833e949d344507b2e14",
+    "code": "CHEM 181.1",
+    "units": 2,
+    "__v": 0
+  }
+]
