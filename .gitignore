@@ -1,4 +1,8 @@
 node_modules/
 frontend/node_modules/
+API/node_modules/
 frontend/server/node_modules/
-package.json
+package.lock.json
+frontend/package.lock.json
+API/package.lock.json
+frontend/server/package.lock.json
