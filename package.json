@@ -4,7 +4,7 @@
   "description": "Deployment build",
   "main": "index.js",
   "scripts": {
-    "shacker-install": "(cd API && npm install) && (cd ../frontend/server && npm install) && (cd ../ && npm install)",
+    "shacker-install": "npm install -g nodemon && (cd API && npm install) && (cd ../frontend/server && npm install) && (cd ../ && npm install)",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
