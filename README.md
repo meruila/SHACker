@@ -1,6 +1,6 @@
 #  SHACker
 
-An application used for double-checking student records under the College of Arts and Sciences in UPLB.
+An intranet application used for double-checking student records under the College of Arts and Sciences in UPLB.
 Created by **D4L**
 
 ## Installation
