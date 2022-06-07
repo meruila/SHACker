@@ -25,5 +25,5 @@ Created by **D4L**
 
 >1. Go to *API/* then run `npm start`
 >2. Then, using another terminal, go to *frontend/* and run`npm start`
->3. Enter this in your web browser's address bar: <IP_ADDRESS>:5000
->4. Check with other devices from the same network.
+>3. Enter the server's IP address (this was printed when you started the API) in your devices' address bars using port 5000. Format: <IP_ADDRESS>:5000
+>4. Repeat Step 3 with other devices from the same network.
