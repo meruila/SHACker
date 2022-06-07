@@ -110,10 +110,6 @@ function Logs() {
                                 <DeleteLogDialog />
                             {/* To push the SearchBar to the right side of the table */}
                             </Grid>
-                            <Grid item sx={3}>
-                                {/* Search Button */}
-                                <SearchBar />
-                            </Grid>
                         </Grid>
                     </Box>
 

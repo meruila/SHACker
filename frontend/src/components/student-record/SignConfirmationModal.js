@@ -42,7 +42,7 @@ export default function SignConfirmationModal({ open, setOpen, stRecord }) {
   };
 
   const handleSignClick = () => {
-    fetch("http://localhost:3001/sign", {
+    fetch(process.env.REACT_APP_API_PATH +"/sign", {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
@@ -83,7 +83,7 @@ export default function SignConfirmationModal({ open, setOpen, stRecord }) {
 
   useEffect(() => {
     setWarningLoading(false);
-    fetch("http://localhost:3001/checkForWarnings", {
+    fetch(process.env.REACT_APP_API_PATH +"/checkForWarnings", {
       method: "POST",
       credentials: "include",
       headers: {
@@ -124,7 +124,7 @@ export default function SignConfirmationModal({ open, setOpen, stRecord }) {
               <RecordWarningsTable recordWarnings={recordWarnings} />
             </Box>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-              By clicking the "Sign" button, you agree that this student record
+              By clicking the <strong>"Sign"</strong> button, you agree that this student record
               has been thoroughly cross-checked and validated.
             </Typography>
             <FormGroup>

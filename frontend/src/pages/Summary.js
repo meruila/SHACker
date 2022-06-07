@@ -19,7 +19,7 @@ import { Link } from "react-router-dom";
 import ShackerToolbar from "../components/ShackerToolbar";
 
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-import { Tooltip, Button } from '@mui/material';
+import { Tooltip, Button, unstable_ClassNameGenerator } from '@mui/material';
 
 // import SummaryConverter from '../custom-utility-functions/summaryConverter'  // DOuble Check
 import LoadingPage from '../components/LoadingPage'
@@ -140,7 +140,7 @@ EnhancedTableHead.propTypes = {
  */
 function SummaryPage() {
   const [order, setOrder] = useState('asc');
-  const [orderBy, setOrderBy] = useState('course');
+  const [orderBy, setOrderBy] = useState('GWA');
   const [page, setPage] = useState(0);
   const [dense, setDense] = useState(false);
   const [rowsPerPage, setRowsPerPage] = useState(5);
@@ -187,9 +187,26 @@ function SummaryPage() {
       .then(response => response.json())
       .then(body => {
       if (body.success) {
+        let customRows = [];
 
-          setUserArray(body.studentRecordsSummary);
+        if(body.studentRecordsSummary.length !== 0){ //check first if there is a saved record
+          for(let i = 0; i < body.studentRecordsSummary.length; i++){
+            customRows.push({
+              name: body.studentRecordsSummary[i].name.last+", "+body.studentRecordsSummary[i].name.first,
+              course: body.studentRecordsSummary[i].course,
+              studentNo: body.studentRecordsSummary[i].studentNo,
+              GWA: body.studentRecordsSummary[i].GWA,
+              verifiedBy: body.studentRecordsSummary[i].verifiedBy
+            })
+            if (i === (body.studentRecordsSummary.length - 1)){
+              setUserArray(customRows);
+              setgotFetched(true);
+            }                
+          }
+        }else{
+          setUserArray(customRows);
           setgotFetched(true);
+        }
 
       }
       else{
@@ -275,14 +292,7 @@ function SummaryPage() {
                         style={{ textDecoration: "none" }}
                       >
                         <TableCell align="left" width="20%">{row.studentNo}</TableCell>
-                        <TableCell
-                          component="th"
-                          id={labelId}
-                          scope="row"
-                          width="30%"
-                        >
-                          {row.name.last}, {row.name.first}
-                        </TableCell>
+                        <TableCell align="left"  width="10%">{row.name}</TableCell>
                         <TableCell align="left"  width="10%">{row.course}</TableCell>
                         <TableCell align="right" width="10%">{row.GWA}</TableCell>
                         <TableCell align="left"  width="30%">
