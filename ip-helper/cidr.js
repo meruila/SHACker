@@ -18,7 +18,7 @@ try{
 }
 catch{
     console.log("Manually put cidr in code");
-    buffer = ""; // manually put cidr here
+    buffer = ""; // manually put cidr here (inside "")
 }
 
 exports.target = buffer;
