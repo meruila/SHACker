@@ -1,8 +1,2 @@
 node_modules/
 package.lock.json
-frontend/node_modules/
-API/node_modules/
-frontend/server/node_modules/
-frontend/package.lock.json
-API/package.lock.json
-frontend/server/package.lock.json
