@@ -124,9 +124,9 @@ export default function UploadButton() {
           for (i = 0; i < valList.errList.length; i++){
             const tempErr = valList.errList[i].msg;
             let tempMsg = tempErr.err;
-            if (tempErr.row !== undefined){
+            if (tempErr.row != undefined || tempErr.row != null){
               tempMsg += (" near row " + tempErr.row);
-            }else if(tempErr.sem !== null){
+            }else if(tempErr.sem != null){
               tempMsg += (" at sem " + tempErr.sem + " A.Y. " + tempErr.year);
             }
             rejectList.push({

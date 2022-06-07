@@ -184,11 +184,6 @@ function ManageUsers() {
                                     </Button>
                                 </Link>
                             </Grid>
-
-                            {/* Search Button */}
-                            <Grid item sx={3}>
-                                <SearchBar />
-                            </Grid>
                         </Grid>
                     </Box>
 
@@ -219,7 +214,7 @@ function ManageUsers() {
                                                     {item.user.email} 
                                                 </TableCell>
                                                 <TableCell>
-                                                    {localStorage.getItem('user') === item.user.email ? null: 
+                                                    {localStorage.getItem('user') === item.user.email ? "Current Admin": 
                                                     <Tooltip title="Promote">
                                                         <IconButton onClick={(event) => promoteUser(event, index)}>
                                                             <AdminPanelSettingsIcon sx={{color: green}}/>

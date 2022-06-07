@@ -127,7 +127,6 @@ function CreateAdminPage() {
     ) {
       return;
     }
-
     // TODO: API Call
     // Default options are marked with *
     fetch(process.env.REACT_APP_API_PATH +"/adminSignUp", {

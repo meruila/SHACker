@@ -28,7 +28,7 @@ export default class Login extends Component {
 
     // Send a POST request
     fetch(
-      "/login",
+      process.env.REACT_APP_API_PATH + "/login",
       {
         method: "POST",
         headers: {

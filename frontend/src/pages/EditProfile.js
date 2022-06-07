@@ -1,6 +1,6 @@
 import React, { useState , useEffect } from 'react';
 import { Link } from "react-router-dom";
-import { Box, Button, Grid, IconButton, TextField, Typography} from '@mui/material';
+import { Alert, Box, Button, Grid, IconButton, TextField, Typography, Tooltip } from '@mui/material';
 import EditIcon from '@mui/icons-material/Edit';
 
 import ShackerToolbar from "../components/ShackerToolbar";
@@ -19,7 +19,8 @@ function EditProfilePage() {
     const [firstName, setFirstName] = useState("");
     const [lastName, setLastName] = useState("");
     const [gotFetched, setgotFetched] = useState();
-    const [email, setEmail] = useState("")
+    const [email, setEmail] = useState("");
+    const [errorName, setErrorName ] = useState("");
 
     // FETCH call for viewProfile
     useEffect(() => {
@@ -69,33 +70,42 @@ function EditProfilePage() {
     const handleSubmit = (evt) => {
         evt.preventDefault();
         
-        // To be sent to API
-        const name={
-            firstName: firstName,
-            lastName: lastName
+        // Error Validation 
+        if (firstName === "" || lastName === ""){
+            setErrorName("All fields must be filled.")
+        } else {
+            setErrorName("");
+
+            // To be sent to API
+            const name={
+                firstName: firstName,
+                lastName: lastName
+            }
+
+            fetch(
+                process.env.REACT_APP_API_PATH +"/editProfile",
+                {
+                method: "POST",
+                credentials: "include",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify(name)
+                })
+                .then(response => response.json())
+                .then(body => {
+                if (body.success) {
+                    // If successful changing of profile
+                    window.location.reload(true)
+                }
+                else{
+                    console.log(body.note);
+                }
+                })
+                .catch(err => console.log(err));
         }
 
-        fetch(
-            process.env.REACT_APP_API_PATH +"/editProfile",
-            {
-            method: "POST",
-            credentials: "include",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(name)
-            })
-            .then(response => response.json())
-            .then(body => {
-            if (body.success) {
-                // If successful changing of profile
-                window.location.reload(true)
-            }
-            else{
-                console.log(body.note);
-            }
-            })
-            .catch(err => console.log(err));
+        
     }
 
     const setFieldsEditable = (evt) => {
@@ -124,9 +134,11 @@ function EditProfilePage() {
                 mt: 3
             }}>
                 Edit Profile
-                <IconButton onClick={setFieldsEditable}>
-                    <EditIcon/>
-                </IconButton>
+                <Tooltip title="Enable fields">
+                    <IconButton onClick={setFieldsEditable}>
+                        <EditIcon/>
+                    </IconButton>
+                </Tooltip>
             </Typography>
             
             
@@ -162,7 +174,17 @@ function EditProfilePage() {
                     disabled />
                 </Grid>
             </Grid>
-
+            <Box sx={{ 
+                px: 18, 
+                mt: 5,
+                mb: 4 
+            }}>
+                { errorName.length !== 0 && (
+                <Alert severity="error" sx={{ mb: 2 }}>
+                    {errorName}
+                </Alert>    
+                ) }
+            </Box>
             <Box sx={{ 
                 px: 18, 
                 mt: 5,

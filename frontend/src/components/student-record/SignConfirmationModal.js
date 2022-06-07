@@ -124,7 +124,7 @@ export default function SignConfirmationModal({ open, setOpen, stRecord }) {
               <RecordWarningsTable recordWarnings={recordWarnings} />
             </Box>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-              By clicking the "Sign" button, you agree that this student record
+              By clicking the <strong>"Sign"</strong> button, you agree that this student record
               has been thoroughly cross-checked and validated.
             </Typography>
             <FormGroup>
