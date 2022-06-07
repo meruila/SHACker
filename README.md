@@ -8,4 +8,4 @@ Deployment build
 5. To run, go to API, `npm start`
 6. Then go to frontend, `npm start`
 7. New tab in web browser, <IP_ADDRESS>:5000
-8. Check with other devices.
+8. Check with other devices from the same network.
