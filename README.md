@@ -16,7 +16,7 @@ Created by **D4L**
 ### Method 3
 
 > 1. Clone the repository.
-> 2. In *AP/I*, `npm i`
+> 2. In *API/*, `npm i`
 > 3. In *frontend/*, `npm i` (If it does not work, `npm i --force`)
 > 4. In *frontend/server*, `npm i`
 
