@@ -42,7 +42,7 @@ export default function SignConfirmationModal({ open, setOpen, stRecord }) {
   };
 
   const handleSignClick = () => {
-    fetch("http://localhost:3001/sign", {
+    fetch(process.env.REACT_APP_API_PATH +"/sign", {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
@@ -83,7 +83,7 @@ export default function SignConfirmationModal({ open, setOpen, stRecord }) {
 
   useEffect(() => {
     setWarningLoading(false);
-    fetch("http://localhost:3001/checkForWarnings", {
+    fetch(process.env.REACT_APP_API_PATH +"checkForWarnings", {
       method: "POST",
       credentials: "include",
       headers: {

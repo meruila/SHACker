@@ -664,7 +664,7 @@ const EditStudentRecordPage = () => {
         setFetched(true);
       });
 
-    fetch("http://localhost:3001/isAdmin", {
+      fetch(process.env.REACT_APP_API_PATH +"/isAdmin", {
       method: "POST", // *GET, POST, PUT, DELETE, etc.
       mode: "cors", // no-cors, *cors, same-origin
       cache: "no-cache", // *default, no-cache, reload, force-cache, only-if-cached
