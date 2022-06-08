@@ -13,7 +13,7 @@ Created by **D4L**
 > 1. Clone the repository.
 > 2. Enter `npm run shacker-install` on your terminal
 
-### Method 3
+### Method 3 (Recommended)
 
 > 1. Clone the repository.
 > 2. In *API/*, `npm i`
