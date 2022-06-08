@@ -22,7 +22,7 @@ exports.convertToPDF = (data) => {
         let users = "";
         for (let j in data[i].verifiedBy) {
             users += data[i].verifiedBy[j]
-            if (j !== data[i].verifiedBy.length - 1) {
+            if (j != data[i].verifiedBy.length - 1) {
                 users += ", ";
             }
         }
