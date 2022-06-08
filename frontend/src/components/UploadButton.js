@@ -136,7 +136,7 @@ export default function UploadButton() {
 
           }
 
-          if (valList.formattedList.length !== 0){
+          if (valList.formattedList.length != 0){
 
             const sendToBackend = {formattedList: valList.formattedList};
 
@@ -208,6 +208,17 @@ export default function UploadButton() {
             setRejectedNumber(rejectList.length );          
             handleClickOpen()
           }
+        }else{
+          let fileL = [];
+            for (let i = 0; i < rejectList.length; i++) {
+              fileL.push({
+                filename: rejectList[i].filename,
+                msg: rejectList[i].msg
+              })
+            }
+            setFileList(fileL);
+            setRejectedNumber(rejectList.length );          
+            handleClickOpen()
         }
       })
       .catch(function(err){ console.log(err) });
