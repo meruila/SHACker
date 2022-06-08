@@ -153,16 +153,10 @@ export default function UploadButton() {
                 .then(response => response.json())
                 .then(body => {
                 if (body.success) {
-
-                    //Note: Edit this to add the savedList from the backend response
-
                     let fileL = [];
                     const savedList = body.savedList;
                     const rejectedList = body.rejectedList;
 
-                    // returnFromDB = {accepted:[], rejected:[]}
-                    // let fileL = rejectList + rejected;
-                    // let fileT = accepted
                     for (let j = 0; j < savedList.length; j++) {
                       fileL.push({
                         filename: savedList[j],
@@ -190,8 +184,27 @@ export default function UploadButton() {
                 }
                 else{
                   // No records saved dialogbox
-                  setFailedDialog(body.note);
-                  handleClickOpenFail();
+                  // setFailedDialog(body.note);
+                  // handleClickOpenFail();
+
+                  let fileL = [];
+                  for (let i = 0; i < rejectList.length; i++) {
+                    fileL.push({
+                      filename: rejectList[i].filename,
+                      msg: rejectList[i].msg
+                    })
+                  }
+                  if(body.rejectedList.length != 0){
+                    for (let k = 0; k < body.rejectedList.length; k++) {
+                      fileL.push({
+                        filename: body.rejectedList[k].filename,
+                        msg: body.rejectedList[k].err
+                      })
+                    }
+                  }
+                  setFileList(fileL);
+                  setRejectedNumber((rejectList.length) + body.rejectedList.length );
+                  handleClickOpen()
                 }
                 })
 

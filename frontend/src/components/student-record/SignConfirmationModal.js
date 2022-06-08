@@ -64,7 +64,7 @@ export default function SignConfirmationModal({ open, setOpen, stRecord }) {
           });
           setTimeout(() => {
             navigate("/student-records");
-          }, 3000);
+          }, 500);
         } else {
           setResult({
             status: "error",

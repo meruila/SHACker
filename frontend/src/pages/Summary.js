@@ -64,7 +64,7 @@ const headCells = [
     label: "Student Number",
   },
   {
-    id: "name",
+    id: "fullname",
     numeric: false,
     disablePadding: false,
     label: "Full Name",
@@ -192,7 +192,8 @@ function SummaryPage() {
         if(body.studentRecordsSummary.length !== 0){ //check first if there is a saved record
           for(let i = 0; i < body.studentRecordsSummary.length; i++){
             customRows.push({
-              name: body.studentRecordsSummary[i].name.last+", "+body.studentRecordsSummary[i].name.first,
+              fullname: body.studentRecordsSummary[i].name.last+", "+body.studentRecordsSummary[i].name.first,
+              name: body.studentRecordsSummary[i].name,
               course: body.studentRecordsSummary[i].course,
               studentNo: body.studentRecordsSummary[i].studentNo,
               GWA: body.studentRecordsSummary[i].GWA,
@@ -292,7 +293,7 @@ function SummaryPage() {
                         style={{ textDecoration: "none" }}
                       >
                         <TableCell align="left" width="20%">{row.studentNo}</TableCell>
-                        <TableCell align="left"  width="10%">{row.name}</TableCell>
+                        <TableCell align="left"  width="10%">{row.fullname}</TableCell>
                         <TableCell align="left"  width="10%">{row.course}</TableCell>
                         <TableCell align="right" width="10%">{row.GWA}</TableCell>
                         <TableCell align="left"  width="30%">
@@ -329,16 +330,21 @@ function SummaryPage() {
           control={<Switch checked={dense} onChange={handleChangeDense} />}
           label="Dense padding"
         />
-        
-        <Tooltip title="Download summary">
-          <Button onClick={()=>{converter.convertToPDF(userArray)}} > 
-            <FileDownloadIcon /> 
-            <Typography>
-              {' Download Summary'}
 
-            </Typography>
-          </Button>
-        </Tooltip>
+          {userArray.length!=0 && (
+            <Tooltip title="Download summary">
+            <Button onClick={()=>{
+              if(userArray.length!=0){}
+              converter.convertToPDF(userArray)
+              }} > 
+              <FileDownloadIcon /> 
+              <Typography>
+                {' Download Summary'}
+  
+              </Typography>
+            </Button>
+          </Tooltip>
+          )}
         
       </Box>
     </div>

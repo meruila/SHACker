@@ -136,7 +136,7 @@ function CreateAdminPage() {
         if (data.success) {
           setTimeout(() => {
             navigate("/login");
-          }, 3000);
+          }, 500);
         }
       })
       .catch((error) => {

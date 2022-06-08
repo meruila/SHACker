@@ -12,6 +12,8 @@ import LoadingToolbar from '../LoadingToolbar';
 function DeleteLogDialog() {
   const [open, setOpen] = React.useState(false);
   const [isAdmin, setIsAdmin] = React.useState();
+  const [openStatus, setOpenStatus] = React.useState(false);
+  const [statusDialogText, setStatusDialogText] = React.useState("");
   const [gotFetched, setGotFetched] = React.useState();
   const [passwordHelperText, setPasswordHelperText] = React.useState("Confirm password.");
   const [password, setPassword] = React.useState("");
@@ -60,7 +62,6 @@ function DeleteLogDialog() {
 
   const deleteAllLogs = (event) => {
     event.preventDefault();
-    console.log(password);
 
     //Credentials be sent to the backend
     const passWord = {
@@ -79,10 +80,9 @@ function DeleteLogDialog() {
         })
         .then(response => response.json())
         .then(body => {
-            console.log(body);
-            alert(body.note);
-            handleClose();
-            window.location.reload(true)
+          setStatusDialogText(body.note);
+          handleClose();
+          handleClickOpenStatus()
         })
         .catch(err => console.log(err));
   }
@@ -96,6 +96,43 @@ function DeleteLogDialog() {
   const handleClose = () => {
     setOpen(false);
   };
+
+  // Handles Opening of Status Dialog Box
+  const handleClickOpenStatus = () => {
+    setOpenStatus(true);
+  };
+
+  // Handles Closing of Status Dialog Box
+  const handleCloseStatus = () => {
+    setOpenStatus(false);
+    window.location.reload(true)
+  };
+
+  const StatusDialog = (
+    <React.Fragment>
+      <Dialog
+        open={openStatus}
+        onClose={handleCloseStatus}
+        aria-labelledby="alert-dialog-title"
+        aria-describedby="alert-dialog-description"
+    >
+        <DialogTitle id="alert-dialog-title">
+        {"Delete Status"}
+        </DialogTitle>
+        <DialogContent>
+        <DialogContentText id="alert-dialog-description">
+            {statusDialogText}
+        </DialogContentText>
+        </DialogContent>
+        <DialogActions>
+        <Button onClick={() => {handleCloseStatus()}}>Okay</Button>
+        </DialogActions>
+    </Dialog>
+    </React.Fragment>
+  );
+
+
+  
 
  // While fetching data for page, render loading page
 if (gotFetched === undefined) {
@@ -144,6 +181,7 @@ if (gotFetched === undefined) {
                 </Button>
                 </DialogActions>
             </Dialog>
+            {StatusDialog}
         </div>
         )
       }else{
